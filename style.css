@@ -1,0 +1,262 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.brand-container {
+    padding-left: 0px;
+    display: inline-flex;
+    float: left;
+    margin-top: 15px;
+}
+
+.brand-container img {
+    width: 90px;
+}
+
+.brand-container h2 {
+    font-size: 40px;
+    color: #FCA311;
+}
+
+.first-section {
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)), url(./Assets/images/hotel\ image\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    margin: auto;
+}
+
+nav {
+    height: 80px;
+    background-color: #14213D;
+    width: 100%;
+}
+
+nav ul {
+    float: right;
+    line-height: 80px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0px 5px;
+}
+
+nav ul li a {
+    color: #E5E5E5;
+    text-decoration: none;
+    text-transform: none;
+    padding: 7px 8px;
+    font-size: 23px;
+}
+
+nav ul li a:hover {
+    color: #FCA311;
+}
+
+.article {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.article h1 {
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-family: cursive;
+    color: #FCA311;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.article p {
+    color: #E5E5E5;
+    margin: 0 auto;
+    font-size: 20px;
+    max-width: 600px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+.discover-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #FCA311;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    color: #14213D;
+}
+
+.welcome {
+    padding-top: 100px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.star img {
+    width: 30px;
+    
+}
+
+.welcome-container {
+    text-align: center;
+}
+
+.welcome-container h2 {
+    font-size: 50px;
+    margin-bottom: 15px;
+    color: #FCA311;
+    font-family: var(--title-font)
+}
+
+.welcome-container p {
+    font-size: 17px;
+    line-height: 32px;
+    max-width: 700px;
+    margin: 0 auto;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+.cool {
+    display: flex;
+    flex-direction: row;
+    max-width: 85%;
+    margin: 0 auto;
+    column-gap: 40px;
+    text-align: center; 
+    margin-top: 30px;   
+}
+
+.better {
+    max-width: 350px;
+}
+
+.cool div p {
+    font-size: 1rem;
+    max-width: 800px;
+    line-height: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+.cool div h3 {
+    margin-top: 20px;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #FCA311;
+    font-family: var(--title-font)
+}
+
+.stay {
+    height: 326px;
+    width: 400px;
+}
+
+.dine {
+    height: 326px;
+}
+
+.offer {
+    height: 326px; 
+}
+
+.frame-section {
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.frame {
+    height: 400px;
+    width: 1000px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.fourth-section {
+    padding-top: 100px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.fourth-section h3 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-family: var(--title-font);
+    font-weight: var(--title-font-weight);
+    color: #FCA311;
+}
+
+.facilities {
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+}
+
+.fac {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 15px 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.1);
+}
+
+.left {
+    background-color: #FCA311;
+    padding: 15px 15px;
+    margin: 15px 15px;
+    height: 70px;
+    border-radius: 5px;
+}
+
+.right {
+    max-width: 300px;
+    text-align: left;
+}
+
+.right h4 {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(72, 70, 70);
+    font-family: var(--title-font);
+}
+
+.right p {
+    line-height: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
